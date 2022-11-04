@@ -6,7 +6,7 @@ function Header() {
     <header className="header">
       <div className="share-icon">
         <img
-          src="../assest/share-avater-icon.svg"
+          src="/img/share-avater-icon.svg"
           alt="share icon"
           className="share"
         />
