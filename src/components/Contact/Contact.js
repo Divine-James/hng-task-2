@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import InputField from "../formElement/InputField";
-import Button from "../formElement/Button";
-import Checkbox from "../formElement/Checkbox";
+import InputField from "../Form/InputField";
+import Button from "../Form/Button";
+import Checkbox from "../Form/Checkbox";
 import Successfull from "../alertsMessages/Successfull";
-import Textarea from "../formElement/Textarea";
-import "./contact.css";
+import Textarea from "../Form/Textarea";
+import "./Contact.css";
 
 const Contact = () => {
   const [alertOpen, setAlertOpen] = useState(false);
