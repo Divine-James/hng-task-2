@@ -1,11 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-const index = ({ components }) => {
-  //components is an array of objects that contain the path and component
-  //item are the component
-  //id is individual id for each component
-  //path is the path for each component
+const Index = ({ components }) => {
   return (
     <Routes>
       {components.map(({ component, path }, index) => {
@@ -15,4 +11,4 @@ const index = ({ components }) => {
   );
 };
 
-export default index;
+export default Index;

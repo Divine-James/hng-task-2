@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../../components/Header";
-import Link from "../../components/Link";
+import Header from "../../components/Header/Header";
+import Link from "../../components/Link/Link";
 import Socials from "../../components/Socials";
 
 const index = () => {

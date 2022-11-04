@@ -1,6 +1,6 @@
 import React from "react";
 import "./Link.css";
-const index = ({ children, id, redirect, link, ...otherProps }) => {
+const Link = ({ children, id, redirect, link, ...otherProps }) => {
   return (
     <a href={link} id={id} target={redirect} className="link" {...otherProps}>
       {children}
@@ -8,4 +8,4 @@ const index = ({ children, id, redirect, link, ...otherProps }) => {
   );
 };
 
-export default index;
+export default Link;

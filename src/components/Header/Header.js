@@ -1,22 +1,20 @@
 import React from "react";
 import "./Header.css";
 
-function Profile() {
-  /*const [width] = React.useState(window.innerWidth);
-  const breakpoint = 768;*/
+function Header() {
   return (
     <header className="header">
       <div className="share-icon">
         <img
-          src="img/share-avater-icon.svg"
+          src="./public/img/share-avater-icon.svg"
           alt="share icon"
           className="share"
         />
-        <img src="img/dotted-hamburger.svg" alt="menu icon" className="menu" />
+        <img src="/img/dotted-hamburger.svg" alt="menu icon" className="menu" />
       </div>
       <div className="user-profile">
         <img
-          src="img/picture.jpg"
+          src="/img/picture.jpg"
           alt="user"
           className="picture"
           id="profile__img"
@@ -33,4 +31,4 @@ function Profile() {
     </header>
   );
 }
-export default Profile;
+export default Header;
