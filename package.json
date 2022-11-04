@@ -2,7 +2,6 @@
   "name": "hng-task",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://divine-james.github.io/hng-task-2/",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -42,8 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
