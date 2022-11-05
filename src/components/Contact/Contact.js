@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import InputField from "../Form/InputField";
 import Button from "../Form/Button";
 import Checkbox from "../Form/Checkbox";
-import Successfull from "../alertsMessages/Successfull";
+import Successful from "../alertsMessages/Successful";
 import Textarea from "../Form/Textarea";
 import "./Contact.css";
 
@@ -27,7 +27,7 @@ const Contact = () => {
   return (
     <div className="contact-wraper">
       <div className={`${alertOpen ? "" : "hide-alert"}`}>
-        <Successfull close={() => setAlertOpen(false)} />
+        <Successful close={() => setAlertOpen(false)} />
       </div>
       <h1>Contact Me</h1>
       <p>Hi there, contact me to ask me about anything you have in mind.</p>
