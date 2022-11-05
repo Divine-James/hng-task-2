@@ -55,16 +55,11 @@
   color: #c0c0c0;
   word-break: break-all;
 }
-/* 
-.checkbox-wrap input[type="checkbox"]:focus {
-  box-shadow: 0 0 20px #1570ef;
-} */
 
 @media screen and (max-width: 600px) {
   .checkbox-wrap input[type="checkbox"] {
     width: 40px;
     height: 20px;
-    /* margin-right: 1rem; */
   }
 
   .checkbox-wrap {

@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 
-const index = ({close}) => {
+const index = ({ close }) => {
   return (
     <div class="content">
-      
       <div class="alert alert-danger alert-white rounded">
         <button
           type="button"
@@ -17,10 +16,11 @@ const index = ({close}) => {
         <div class="icon">
           <i class="fa fa-times-circle"></i>
         </div>
-        <strong>Error!</strong> The server is not responding, try again later.
+        <strong>Error!</strong> The server is not responding,please try again
+        later.
       </div>
     </div>
   );
-}
+};
 
-export default index
+export default index;
